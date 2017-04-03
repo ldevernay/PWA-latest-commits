@@ -32,7 +32,7 @@
 
   // Get Commit Data from Github API
   function fetchCommits() {
-    var url = 'https://api.github.com/repos/ldevernay/PWA-latest-commits/commits';
+    var url = 'https://api.github.com/repos/unicodeveloper/resources-i-like/commits';
 
     fetch(url)
     .then(function(fetchResponse){
